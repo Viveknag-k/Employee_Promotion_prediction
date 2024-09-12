@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Employee Promotion Prediction app using FastAPI")
+st.title("FastTrack Promotions: Leveraging AI for Smarter HR Decisions")
 tab1,tab2=st.tabs([' 🏡 Home ',' Predict Promotion Status '])
 with tab1:
     st.header(" 👤 Welcome User")
