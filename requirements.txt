@@ -7,4 +7,4 @@ pandas
 numpy
 scikit-learn
 pickle
-pip --upgrade
+--upgrade pip
