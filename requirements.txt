@@ -7,4 +7,3 @@ pandas
 numpy
 scikit-learn
 pickle
-pip>=24.2
