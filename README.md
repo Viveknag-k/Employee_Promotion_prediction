@@ -1,0 +1,1 @@
+https://www.shiftbase.com/hs-fs/hubfs/smart%20business%20man%20writing%20the%20word%20promotion%20on%20the%20board.jpg?width=2500&height=1667&name=smart%20business%20man%20writing%20the%20word%20promotion%20on%20the%20board.jpg
