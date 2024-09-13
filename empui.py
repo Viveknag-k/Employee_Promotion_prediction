@@ -18,9 +18,8 @@ with tab2:
     aw=st.number_input(label = "Awards won" , step=1, format="%i")
     avg=st.number_input(label = "Average training score", step=1., format="%.2f")
     
-    # Assuming your FastAPI app is running on http://localhost:8000
     base_url = "http://localhost:8000"
-    # Define the data for the POST request (make sure this matches your empdata model)
+   
     data = {
     "employee_id": Id,
     "no_of_trainings": tr,
@@ -30,13 +29,11 @@ with tab2:
     "awards_won": aw,
     "avg_training_score": avg
     }
-    # Make a POST request to the /predict endpoint
     
-    # Check the response
     if st.button("Predict"):
         response = requests.post(f"{base_url}/predict", json=data)
         if response.status_code == 200:
-            st.write(response.json())  # This should return the prediction result from your model
+            st.write(response.json()) 
         else:
             st.write(f"Request failed with status code: {response.status_code}")
 
